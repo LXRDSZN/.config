@@ -1,0 +1,6 @@
+2023/05/18-23:24:09.541 689 Reusing MANIFEST /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/18-23:24:09.542 689 Recovering log #4
+2023/05/18-23:24:09.557 689 Reusing old log /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000004.log 
+2023/05/18-23:27:41.927 68a Level-0 table #8: started
+2023/05/18-23:27:42.206 68a Level-0 table #8: 1659686 bytes OK
+2023/05/18-23:27:42.220 68a Delete type=0 #4

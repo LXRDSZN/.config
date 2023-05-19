@@ -1,0 +1,14 @@
+2023/05/17-11:17:54.681 1434a Reusing MANIFEST /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_keepa.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/17-11:17:54.681 1434a Recovering log #22
+2023/05/17-11:17:54.681 1434a Reusing old log /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_keepa.com_0.indexeddb.leveldb/000022.log 
+2023/05/17-11:17:54.682 1434a Delete type=2 #20
+2023/05/17-11:17:54.888 1434d Level-0 table #27: started
+2023/05/17-11:17:54.894 1434d Level-0 table #27: 972 bytes OK
+2023/05/17-11:17:54.901 1434d Delete type=0 #22
+2023/05/17-11:17:54.902 1434a Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 397 : 1
+2023/05/17-11:17:54.902 1434a Compacting 1@0 + 1@1 files
+2023/05/17-11:17:54.908 1434a Generated table #28@0: 25 keys, 664 bytes
+2023/05/17-11:17:54.908 1434a Compacted 1@0 + 1@1 files => 664 bytes
+2023/05/17-11:17:54.913 1434a compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/17-11:17:54.913 1434a Delete type=2 #27
+2023/05/17-11:17:54.914 1434a Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 397 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)

@@ -1,0 +1,61 @@
+2023-05-16 10:18:06.828 [info] Nivel de registro: Info
+2023-05-16 10:18:06.829 [info] La validación encontró GIT en: “git“
+2023-05-16 10:18:06.829 [info] Usando GIT “2.39.2” desde “git”
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [19ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [51ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [106ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [11ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:06.829 [info] > git rev-parse --show-toplevel [12ms]
+2023-05-16 10:18:06.829 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:12.569 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-16 10:18:12.569 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-16 10:18:38.479 [info] Nivel de registro: Info
+2023-05-16 10:18:38.479 [info] La validación encontró GIT en: “git“
+2023-05-16 10:18:38.480 [info] Usando GIT “2.39.2” desde “git”
+2023-05-16 10:18:38.480 [info] > git rev-parse --show-toplevel [44ms]
+2023-05-16 10:18:38.480 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-16 10:18:38.480 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-16 10:18:38.480 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-16 10:18:38.480 [info] > git rev-parse --show-toplevel [10ms]
+2023-05-16 10:18:38.480 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-16 10:18:39.143 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-16 10:18:39.144 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1

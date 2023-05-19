@@ -1,0 +1,19 @@
+WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector
+[Error - 15:49:45] 18 may. 2023 14:49:45 Failed to create linked resource from file:///home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java to jdt.ls-java-project
+Resource '/jdt.ls-java-project/src/estacionamientonivel/Login.java' already exists.
+org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/estacionamientonivel/Login.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/estacionamientonivel/Login.java' already exists.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1382)
+	at org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1317)
+	at org.eclipse.core.internal.resources.Resource.createLink(Resource.java:646)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:274)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:189)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:449)
+	at org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:40)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:405)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+

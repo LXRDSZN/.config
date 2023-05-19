@@ -1,0 +1,33 @@
+[
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "¿Qué podemos lograr a través de la responsabilidad social?",
+        "respuesta": "Sostenibilidad",
+        "incorrecta1": "Negatividad",
+        "incorrecta2": "Vulnerabilidad",
+        "incorrecta3": "Desacuerdo",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "Qué podemos lograr a través de la responsabilidad social",
+        "respuesta": "Éxito a largo plazo   ",
+        "incorrecta1": "Fracaso",
+        "incorrecta2": "Desacuerdo",
+        "incorrecta3": "Descontento",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "¿Qué podemos lograr a través de la responsabilidad social?",
+        "respuesta": "Sostenibilidad",
+        "incorrecta1": "Negatividad",
+        "incorrecta2": "Vulnerabilidad",
+        "incorrecta3": "Desacuerdo",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+
+]

@@ -1,0 +1,9 @@
+2023/05/19-10:06:12.827 a19 Reusing MANIFEST /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/19-10:06:12.829 a19 Recovering log #7
+2023/05/19-10:06:12.833 a19 Reusing old log /home/lxrdszn/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000007.log 
+2023/05/19-10:06:21.666 a1a Compacting 1@1 + 1@2 files
+2023/05/19-10:06:21.838 a1a Generated table #10@1: 271 keys, 358253 bytes
+2023/05/19-10:06:21.838 a1a Compacted 1@1 + 1@2 files => 358253 bytes
+2023/05/19-10:06:21.842 a1a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/19-10:06:21.842 a1a Delete type=2 #5
+2023/05/19-10:06:21.842 a1a Delete type=2 #8

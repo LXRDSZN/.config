@@ -1,0 +1,104 @@
+[
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "¿Qué podemos lograr a través de la responsabilidad social?",
+        "respuesta": " d) Sostenibilidad",
+        "incorrecta1":"c) Negatividad",
+        "incorrecta2":"b) Vulnerabilidad",
+        "incorrecta3":"a) Desacuerdo",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "Qué podemos lograr a través de la responsabilidad social",
+        "respuesta": " b) Éxito a largo plazo   ",
+        "incorrecta1":"a) Fracaso",
+        "incorrecta2":"c) Desacuerdo",
+        "incorrecta3":"d) Descontento",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "¿Cuántos tipos de responsabilidad social existen?",
+        "respuesta": "  a) 4",
+        "incorrecta1": "b) 6",
+        "incorrecta2": "c) 3",
+        "incorrecta3": "d) 5",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "Una de las responsabilidades que tiene la ética profesional en la sociedad",
+        "respuesta": "  c) Honestidad e integridad    ",
+        "incorrecta1": "a) Corrupción",
+        "incorrecta2": "d) Generar ingresos ",
+        "incorrecta3": "b) Pobreza extrema",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": " ¿A qué contribuye la ética profesional?",
+        "respuesta": "  d) A saber, lo que está bien y mal en el ejercicio de la profesión   ",
+        "incorrecta1": "a) A la invalidación de sentimientos ",
+        "incorrecta2": "c) A desacuerdos en la sociedad    ",
+        "incorrecta3": "b) A fines de lucro",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": " ¿A qué contribuye la ética profesional?",
+        "respuesta": "  a) Un compromiso con la excelencia y la calidad en el desempeño de cada profesión   ",
+        "incorrecta1": "d) Actuar con honestidad e integridad ",
+        "incorrecta2": "c) No promover el bienestar público    ",
+        "incorrecta3": "b) Tomar decisiones irrelevantes",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": " ¿Qué es la ética profesional?",
+        "respuesta": "  c) Conjunto de normas y valores que rigen el actuar de los trabajadores",
+        "incorrecta1": "d) Ser antimoral ",
+        "incorrecta2": "b) Actuar con antivalores    ",
+        "incorrecta3": "a) Compromiso que tenemos frente al bienestar de la sociedad",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "  Una de las características de la ética profesional",
+        "respuesta": "  b) Está basada en deberes y derechos",
+        "incorrecta1": "c) Es antimoral",
+        "incorrecta2": "a) Implica discriminación    ",
+        "incorrecta3": "d) Juega el papel en la familia",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "  ¿Cuál es el principal objetivo de la ética profesional?",
+        "respuesta": "  a) trabajar en conjunto por el bien común",
+        "incorrecta1": "c) promover los antivalores",
+        "incorrecta2": "b) cuidar el medio ambiente    ",
+        "incorrecta3": "d) beneficios solo a algunos",
+        "imagen": "",
+        "objectFit": "cover"
+    },
+    {
+        "categoria": "responsabilidad social",
+        "pregunta": "  ¿Que se busca conocer con los test de honestidad?",
+        "respuesta": "  d) trabajar en conjunto por el bien común",
+        "incorrecta1": "c) promover los antivalores",
+        "incorrecta2": "a) cuidar el medio ambiente    ",
+        "incorrecta3": "b) beneficios solo a algunos",
+        "imagen": "",
+        "objectFit": "cover"
+    }
+
+
+]

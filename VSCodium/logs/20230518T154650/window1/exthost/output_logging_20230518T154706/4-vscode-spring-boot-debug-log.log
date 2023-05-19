@@ -1,0 +1,9 @@
+Activating 'vscode-spring-boot' extension
+"spring-boot.ls.java.home" setting not specified or empty value
+"java.home" setting not specified or empty value
+No user specified java-home setting. Looking for JAVA_HOME env variable...
+JAVA_HOME environment variable not set
+Looking for the path to JVM inside PATH env variable
+Found java executable: /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+isJavaEightOrHigher => true
+Redirecting server logs to /dev/null

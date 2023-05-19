@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/lxrdszn/.config/VSCodium/User/workspaceStorage/3a6cd44a463d11d76ffb1f47f4c0921f/redhat.java/.f9f76c0faaf348393fb53bbaee6a02e9dce40ab4-audit.json",
+    "files": [
+        {
+            "date": 1684002332018,
+            "name": "/home/lxrdszn/.config/VSCodium/User/workspaceStorage/3a6cd44a463d11d76ffb1f47f4c0921f/redhat.java/client.log.2023-05-13",
+            "hash": "47f1f04354c1a1a59278186f09a6fb00"
+        }
+    ]
+}

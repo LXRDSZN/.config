@@ -1,0 +1,114 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -jar /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/lxrdszn/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_ss_linux -data /home/lxrdszn/.config/VSCodium/User/workspaceStorage/9de647d1e92752df20a82f1fdbe0163e/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-05-14 00:07:14.614'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2023-05-14 00:07:17.893'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/lxrdszn/.config/VSCodium/User/workspaceStorage/9de647d1e92752df20a82f1fdbe0163e/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/lxrdszn/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_linux -data /home/lxrdszn/.config/VSCodium/User/workspaceStorage/9de647d1e92752df20a82f1fdbe0163e/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-05-14 00:07:19.063'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-05-14 00:07:23.202'
+}
+{
+  message: '[Error - 00:08:18] 13 may. 2023 23:08:18 Failed to load extension bundles \n' +
+    'Load bundle list\n' +
+    'org.eclipse.core.runtime.CoreException: Load bundle list\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Contains: Cannot extract bundle symbolicName or version /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar\n' +
+    'java.nio.file.NoSuchFileException: /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)\n' +
+    '\tat java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)\n' +
+    '\tat java.base/java.nio.file.Files.readAttributes(Files.java:1851)\n' +
+    '\tat java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1264)\n' +
+    '\tat java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)\n' +
+    '\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)\n' +
+    '\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:347)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:318)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:257)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.getBundleInfo(BundleUtils.java:300)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:116)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2023-05-14 00:08:18.346'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 98, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-14 00:15:28.788'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 162, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2023-05-14 00:17:16.581'
+}
+{
+  message: '[Error - 00:17:47] 13 may. 2023 23:17:47 BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineOffset(ListLineTracker.java:197)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:252)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOffset(AbstractDocument.java:877)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:85)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InlayHintsHandler.inlayHint(InlayHintsHandler.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1117)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2023-05-14 00:17:47.415'
+}

@@ -1,0 +1,22 @@
+2023-05-16 22:12:04.088 [info] Extension host with pid 8290 started
+2023-05-16 22:12:04.090 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/28a79ae15d65f744f6b02680c973b94a.
+2023-05-16 22:12:04.122 [info] Extension host terminating: renderer closed the socket
+2023-05-16 22:12:04.142 [info] Extension host with pid 8290 exiting with code 0
+2023-05-16 22:12:11.493 [info] Extension host with pid 8431 started
+2023-05-16 22:12:11.493 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/685163b0eedacfeb3aea265de25e2b12.
+2023-05-16 22:12:12.358 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-16 22:12:12.360 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-16 22:12:12.361 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-16 22:12:19.577 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-16 22:12:19.963 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-16 22:12:19.966 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-16 22:12:21.520 [info] Eager extensions activated
+2023-05-16 22:12:21.667 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-16 22:12:21.668 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-16 22:12:21.705 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-16 22:12:35.161 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-05-16 22:12:35.162 [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+2023-05-16 22:14:29.123 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-05-16 22:15:41.790 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-05-16 22:48:15.130 [info] Extension host terminating: received terminate message from renderer
+2023-05-16 22:48:15.519 [info] Extension host with pid 8431 exiting with code 0

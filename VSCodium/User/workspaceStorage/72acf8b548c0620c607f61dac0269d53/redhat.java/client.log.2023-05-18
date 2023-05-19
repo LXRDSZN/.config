@@ -1,0 +1,170 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -jar /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/lxrdszn/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_ss_linux -data /home/lxrdszn/.config/VSCodium/User/workspaceStorage/72acf8b548c0620c607f61dac0269d53/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2023-05-18 15:48:47.161'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2023-05-18 15:48:53.159'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/java-17-openjdk-amd64/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/sun.nio.fs=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Djava.import.generatesMetadataFilesAtProjectRoot=false -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -Xlog:disable -javaagent:/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/lombok/lombok-1.18.27.jar -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/home/lxrdszn/.config/VSCodium/User/workspaceStorage/72acf8b548c0620c607f61dac0269d53/redhat.java -Daether.dependencyCollector.impl=bf -jar /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/lxrdszn/.config/VSCodium/User/globalStorage/redhat.java/1.18.0/config_linux -data /home/lxrdszn/.config/VSCodium/User/workspaceStorage/72acf8b548c0620c607f61dac0269d53/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2023-05-18 15:48:57.482'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2023-05-18 15:48:58.177'
+}
+{
+  message: '[Error - 15:49:45] 18 may. 2023 14:49:45 Failed to create linked resource from file:///home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java to jdt.ls-java-project\n' +
+    "Resource '/jdt.ls-java-project/src/estacionamientonivel/Login.java' already exists.\n" +
+    "org.eclipse.core.internal.resources.ResourceException(/jdt.ls-java-project/src/estacionamientonivel/Login.java)[367]: java.lang.Exception: Resource '/jdt.ls-java-project/src/estacionamientonivel/Login.java' already exists.\n" +
+    '\tat org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)\n' +
+    '\tat org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1382)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.createResource(Workspace.java:1317)\n' +
+    '\tat org.eclipse.core.internal.resources.Resource.createLink(Resource.java:646)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.getFakeCompilationUnit(JDTUtils.java:274)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveCompilationUnit(JDTUtils.java:189)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.resolveTypeRoot(JDTUtils.java:449)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:40)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$11(SyntaxLanguageServer.java:405)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:87)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2023-05-18 15:49:45.910'
+}
+{
+  message: '[Error - 15:49:55] 18 may. 2023 14:49:55 Failed to load extension bundles \n' +
+    'Load bundle list\n' +
+    'org.eclipse.core.runtime.CoreException: Load bundle list\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Contains: Cannot extract bundle symbolicName or version /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar\n' +
+    'java.nio.file.NoSuchFileException: /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar\n' +
+    '\tat java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)\n' +
+    '\tat java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)\n' +
+    '\tat java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)\n' +
+    '\tat java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)\n' +
+    '\tat java.base/java.nio.file.Files.readAttributes(Files.java:1851)\n' +
+    '\tat java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1264)\n' +
+    '\tat java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)\n' +
+    '\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)\n' +
+    '\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:347)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:318)\n' +
+    '\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:257)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.getBundleInfo(BundleUtils.java:300)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:116)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n' +
+    '\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2023-05-18 15:49:55.140'
+}
+{
+  message: '[Error - 15:51:28] 18 may. 2023 14:51:28 Error occured while building workspace. Details: \n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 42\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 46\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 50\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 54\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 58\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 62\n' +
+    ' message: The import com.google cannot be resolved; code: 268435846; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 7\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 72\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 87\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 100\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 130\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 160\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 190\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 192\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 195\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 198\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 208\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 211\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 221\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 253\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 256\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 259\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 262\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 100\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 106\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 112\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 118\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 124\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 129\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 134\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 137\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 139\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 161\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 174\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 187\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 199\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 211\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 219\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 226\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 238\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 245\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 251\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 254\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 97\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 163\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 171\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 183\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 190\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 196\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 199\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 74\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 77\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 83\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 89\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 95\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 101\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 106\n' +
+    ' message: org.netbeans cannot be resolved to a type; code: 1'... 31824 more characters,
+  level: 'info',
+  timestamp: '2023-05-18 15:51:28.619'
+}

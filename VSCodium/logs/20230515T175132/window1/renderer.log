@@ -1,0 +1,78 @@
+2023-05-15 16:51:55.441 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 16:51:55.510 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 16:51:55.514 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 16:51:55.517 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 16:52:24.243 [info] [perf] Render performance baseline is 231ms
+2023-05-15 16:53:48.385 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async s.doResolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40722)
+    at async s.reload (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:39995)
+    at async Object.factory (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:38062)
+2023-05-15 16:57:12.992 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 16:57:17.284 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 16:57:28.176 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 16:59:10.180 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 17:00:38.730 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 17:01:38.835 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 17:01:40.505 [error] No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php'): Error: No se puede leer el archivo "/opt/lampp/htdocs/proyectoweb/paggins/index.php" (NoPermissions (FileSystemError): Error: EACCES: permission denied, stat '/opt/lampp/htdocs/proyectoweb/paggins/index.php')
+    at s.restoreReadError (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21649)
+    at s.doReadFileStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:620:21267)
+    at async v.doRead (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:46155)
+    at async v.readStream (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:45830)
+    at async Hr.resolveFromFile (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:60215)
+    at async Hr.resolve (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2337:58307)
+    at async vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:2346:40319
+2023-05-15 17:16:50.283 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.closeStorage
+2023-05-15 17:17:05.495 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'testContinuousRun' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 17:17:05.552 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.remote-repositories' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 17:17:05.556 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'contribEditorGutterMenu' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 17:17:05.559 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-toolsai.jupyter' wants API proposal 'notebookControllerKind' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-05-15 17:17:59.050 [info] [perf] Render performance baseline is -1ms
+2023-05-15 19:38:43.451 [warning] [lifecycle] onWillShutdown is taking a long time, pending operations: join.workingCopyHistory

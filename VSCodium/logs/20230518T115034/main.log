@@ -1,0 +1,9 @@
+2023-05-18 10:50:35.128 [info] update#setState idle
+2023-05-18 10:50:44.365 [info] Starting extension host with pid 155377 (fork() took 73 ms).
+2023-05-18 10:51:05.135 [info] update#setState checking for updates
+2023-05-18 10:51:05.872 [info] update#setState available for download
+2023-05-18 10:51:07.678 [info] Extension host with pid 155377 exited with code: 0, signal: null.
+2023-05-18 10:51:13.033 [info] Starting extension host with pid 155736 (fork() took 65 ms).
+2023-05-18 11:07:29.946 [info] Extension host with pid 155736 exited with code: 0, signal: null.
+2023-05-18 11:07:35.841 [info] Starting extension host with pid 164636 (fork() took 69 ms).
+2023-05-18 11:07:59.068 [info] Enabling inspect port on extension host with pid 164636.

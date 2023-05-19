@@ -1,0 +1,21 @@
+{
+   "browser_action": {
+      "default_icon": "icon-48.png",
+      "default_popup": "popup.html",
+      "default_title": "Search Netflix with FindFlix"
+   },
+   "description": "Quickly and Easily search for movies and TV series on Netflix using FindFlix to see Netflix's hidden categories.",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "48": "icon-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAht+eRSvaShxXdaEgALDpb9pXpMqMFZZFiklD1vPnogAaW1Z6NbrNC7s0QWjufFgwNWkEjkqXdWwR+GZb531hnbVIZkGio2e5HH1qWwsH8T1Gwp/fGujZzF2Io2F+UFZJB9nbTi9J8WBw0Gv0dlkKPFtLocS/nuXxxkyd9Peb3m5mJBswYL4+/p/qT82027hx9CZd0wqPxMusqdKL08svEmugLRfPQIphPcu6mmrXmoHl3afvd6nE/hoTI8UidSfLeGGJM9CTrowzuV+L0AyE7gIZ2N1cmAjFNe4mOPlzhQIidE563EOkRFmJu54vjdFcwR7y8cdQKWV3HCq2Cc/I5wIDAQAB",
+   "manifest_version": 2,
+   "name": "FindFlix: Netflix Secret Category Finder",
+   "offline_enabled": true,
+   "permissions": [ "tabs", "storage" ],
+   "short_name": "FindFlix",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.4"
+}

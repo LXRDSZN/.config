@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Ubicación del archivo de tema de Rofi
+rofi_command="rofi -theme $HOME/.config/polybar/scripts/themes/ethernet-red.rasi"
+
+
+uptime=$(uptime -p | sed -e 's/up //g')
+
+# Obtener la información de la red
+wifi_info=$(nmcli -f SSID,BARS device wifi list)
+current_wifi=$(nmcli -f NAME,TYPE connection show --active | grep 'wifi' | awk '{print $1}')
+
+# Crear una lista de opciones
+options="$wifi_info\n\nConnected: $current_wifi"
+
+# Mostrar el menú utilizando Rofi
+chosen="$(echo -e "$options" | $rofi_command -p "WiFi" -dmenu -selected-row 0)"
+
+# Mostrar la información de la red seleccionada en una notificación
+if [[ "$chosen" != "" ]]; then
+  nmcli device wifi connect "$chosen"
+  notify-send "Connected to $chosen"
+fi

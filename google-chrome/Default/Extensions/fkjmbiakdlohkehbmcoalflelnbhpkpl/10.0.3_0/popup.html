@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>All Netflix Categories</title>
+    <link rel="stylesheet" href="/css/netflix.css">
+    <link rel="stylesheet" href="/css/netflix_over.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+<body class="SimklBrowseLight">
+<div id="SimklBrowse">
+    <div style="display: none" id="genTPL">
+        <div class="enhancerbrowseitem">
+            <div class="enhancerbrowseitemtitle"></div>
+            <div class="enhancerbrowseitemcount">
+                <div class="enhancerbrowseitemnumber"></div>
+            </div>
+            <div class="enhancerbrowseitemlike"></div>
+        </div>
+    </div>
+    <div style="display: none" id="emptyFavorites">
+        <div class="enhancerbrowsenofavorites">
+            <div class="enhancerbrowseunlock1">No Favorites yet!</div>
+            <div class="enhancerbrowsenofavoritesdesc">Browse the <span
+                    class="enhancerbrowseunlock1bold">Full list</span>
+                (27000 categories) or <span class="enhancerbrowseunlock1bold">Popular</span> (200 categories) and click
+                the
+                heart icon to add the category to your Favorites.
+            </div>
+        </div>
+    </div>
+    <div style="display: none" id="notpayedfull">
+        <div class="enhancerbrowseunlock">
+            <div class="enhancerbrowseunlock1">Unlock <span class="enhancerbrowseunlock1bold">27000</span> secret
+                Netflix
+                categories
+            </div>
+            <div class="enhancerbrowseunlock2">For FREE!</div>
+            <div class="enhancerbrowseunlockbtn">Unlock</div>
+            <div class="enhancerbrowseunlock4">Visit Simkl.com to unlock</div>
+            <div class="enhancerbrowseunlock5">To activate the free extension click the UNLOCK button.</div>
+            <div class="enhancerbrowseunlock6">By activating the extension you support Simkl developers.</div>
+        </div>
+    </div>
+    <div class="SimklBrowseRelativePosition">
+        <div class="SimklBrowsePosition">
+            <div class="enhancerbrowse">
+                <div class="enhancerbrowsetriangle">
+                    <div class="enhancerbrowsetrianglebg"></div>
+                </div>
+                <div class="enhancerbrowseblock">
+                    <div class="enhancerbrowsesearchblock">
+                        <div class="enhancerbrowsesearchformblock w-form">
+                            <form class="enhancerbrowsesearchform" _lpchecked="1"><input
+                                    class="enhancerbrowsesearchinput" id="enhancesearch" maxlength="256" name="name"
+                                    placeholder="Search Netflix Categories" type="text" autocomplete="off"></form>
+
+                        </div>
+                        <div class="enhancerbrowsesearchblockswitch"></div>
+                        <div class="enhancerbrowsesearchblockmenu"></div>
+
+                    </div>
+                    <div class="enhancerbrowsemenu">
+                        <div class="enhancerbrowsemenumain">
+                            <div class="enhancerbrowsemenumaintitle enhancerbrowsemenumaintitleactive" data-v="0">All
+                            </div>
+                            <div class="enhancerbrowsemenumaintitle" data-v="2">TV Shows</div>
+                            <div class="enhancerbrowsemenumaintitle" data-v="3">Anime</div>
+                            <div class="enhancerbrowsemenumaintitle" data-v="1">Movies</div>
+                        </div>
+                        <div class="enhancerbrowsemenusub">
+                            <div class="enhancerbrowsemenusubtitle" data-v="1">
+                                <div class="enhancerbrowsemenusubfav">
+                                    <div class="enhancerbrowsemenusubfavico"></div>
+                                    <div class="enhancerbrowsemenusubfavtext">Favorites</div>
+                                </div>
+                            </div>
+                            <div class="enhancerbrowsemenusubtitle" data-v="2">Last used</div>
+                            <div class="enhancerbrowsemenusubtitle" data-v="3">Full list</div>
+                            <div class="enhancerbrowsemenusubtitle enhancerbrowsemenusubtitleactive" data-v="4">Popular
+                            </div>
+                        </div>
+                    </div>
+                    <div class="enhancerbrowseitems">
+                        <div id="genCont"></div>
+                        <div class="enhancerbrowsefooter">Netflix Secret Categories collected by SIMKL</div>
+                    </div>
+                </div>
+
+
+                <div class="enhancerbrowsepagemenu">
+                    <div class="enhancerbrowsepagemenuheader">
+                        <div class="enhancerbrowsepagemenuheaderico"></div>
+                        <div class="enhancerbrowsepagemenuheadertext">Back</div>
+                    </div>
+                    <div class="enhancerbrowsepagemenucontent">
+                        <div class="enhancerbrowsepagemenucontentitemtitle">Premium features</div>
+                        <div class="enhancerbrowsepagemenucontentitem unlock">
+                            <div class="enhancerbrowsepagemenucontentitemico"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Unlock 27000 Secret Categories</div>
+                            <div class="enhancerbrowsepagemenucontentitemright">FREE</div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitemtitle">SIMKL home page</div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://simkl.com">
+                            <div class="enhancerbrowsepagemenucontentitemico icoWWW"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">https://simkl.com</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitemtitle">Apps on other platforms</div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="http://bit.ly/SimklApp">
+                            <div class="enhancerbrowsepagemenucontentitemico icoPhone"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">iPhone app</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://play.google.com/store/apps/details?id=com.simkl.lists">
+                            <div class="enhancerbrowsepagemenucontentitemico icoPhone"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Android app</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://chrome.google.com/webstore/detail/all-netflix-categories/fkjmbiakdlohkehbmcoalflelnbhpkpl">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Chrome extension: Netflix Categories
+                            </div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://chrome.google.com/webstore/detail/enhancer-for-netflix-hulu/dbpjfmehfpcgmlpfnfilcnhbckmecmca">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Chrome extension: Netflix Enhancer</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://chrome.google.com/webstore/detail/simkl-lists-tv-anime-movi/efaenoibdddpeghadhjgeblidofnhmem">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Chrome extension: Simkl Lists</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://simkl.com/apps/">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Other Simkl apps</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitemtitle">Social</div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://www.facebook.com/Simkl/">
+                            <div class="enhancerbrowsepagemenucontentitemico icoName"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Facebook Page</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://www.facebook.com/groups/Simkl/">
+                            <div class="enhancerbrowsepagemenucontentitemico icoName"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Facebook Group</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://discord.gg/u89XfYn">
+                            <div class="enhancerbrowsepagemenucontentitemico icoName"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Discord</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="https://twitter.com/Simkl">
+                            <div class="enhancerbrowsepagemenucontentitemico icoName"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Twitter</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitemtitle">Feedback</div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="mailto:support@simkl.com">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Send feedback to support@simkl.com</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitem" data-link="http://support.simkl.com/">
+                            <div class="enhancerbrowsepagemenucontentitemico icoInfo"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">https://support.simkl.com</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                        <div class="enhancerbrowsepagemenucontentitemtitle">Share</div>
+                        <div class="enhancerbrowsepagemenucontentitem share" data-link="https://simkl.com/app/all-netflix-categories/share">
+                            <div class="enhancerbrowsepagemenucontentitemico icoName"></div>
+                            <div class="enhancerbrowsepagemenucontentitemtext">Share this app with a friend</div>
+                            <div class="enhancerbrowsepagemenucontentitemrightico"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="/js/jquery-2.1.3.min.js"></script>
+<script src="/js/popup.js"></script>
+
+</body>
+</html>

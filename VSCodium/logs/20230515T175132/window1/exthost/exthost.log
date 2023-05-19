@@ -1,0 +1,32 @@
+2023-05-15 16:52:06.395 [info] Extension host with pid 344495 started
+2023-05-15 16:52:06.396 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/1849e82c421a9c8d0853481166c385c1.
+2023-05-15 16:52:07.584 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-15 16:52:07.586 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-15 16:52:07.586 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-15 16:52:11.503 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-15 16:52:11.504 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-15 16:52:15.008 [info] Eager extensions activated
+2023-05-15 16:52:15.337 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 16:52:15.345 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 16:52:15.363 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 16:52:40.762 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2023-05-15 16:52:40.763 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-15 17:16:50.092 [info] Extension host terminating: received terminate message from renderer
+2023-05-15 17:16:50.371 [info] Extension host with pid 344495 exiting with code 0
+2023-05-15 17:17:24.336 [info] Extension host with pid 362641 started
+2023-05-15 17:17:24.336 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/025eb0edb874575972d426ab274fb62f.
+2023-05-15 17:17:26.692 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-15 17:17:26.694 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-05-15 17:17:26.694 [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+2023-05-15 17:17:29.782 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-15 17:17:29.783 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-15 17:17:29.783 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-15 17:17:36.680 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-15 17:17:36.681 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-15 17:17:40.353 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 17:17:40.354 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 17:17:40.396 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 17:17:41.077 [info] Eager extensions activated
+2023-05-15 19:36:08.907 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-05-15 19:38:43.588 [info] Extension host terminating: received terminate message from renderer
+2023-05-15 19:38:44.423 [info] Extension host with pid 362641 exiting with code 0

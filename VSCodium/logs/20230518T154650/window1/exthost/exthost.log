@@ -1,0 +1,139 @@
+2023-05-18 14:47:06.280 [info] Extension host with pid 23809 started
+2023-05-18 14:47:06.285 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/7745d05bb8c1922f765d6f8c444a9f06.
+2023-05-18 14:47:07.674 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-18 14:47:07.678 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java', root cause: Pivotal.vscode-spring-boot
+2023-05-18 14:47:07.679 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:47:07.683 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:47:07.684 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:47:11.243 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-18 14:47:11.244 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-18 14:47:11.244 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-18 14:47:13.546 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-18 14:47:15.473 [info] ExtensionService#_doActivateExtension Pivotal.vscode-spring-boot, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:47:15.474 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:47:20.298 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-18 14:47:20.324 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-18 14:47:20.850 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-18 14:47:25.157 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:47:25.202 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:47:25.203 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:47:25.603 [info] Eager extensions activated
+2023-05-18 14:47:28.842 [error] Error: command 'sts.vscode-spring-boot.enableClasspathListening' not found
+    at b._tryExecuteCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15967)
+    at b.executeCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-18 14:47:45.581 [info] Extension host terminating: received terminate message from renderer
+2023-05-18 14:47:46.129 [error] Error: Client is not running and can't be stopped. It's current state is: starting
+	at s.shutdown (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1127590)
+	at s.stop (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1127171)
+	at s.stop (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1289461)
+	at s.stop (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:872058)
+	at t.StandardLanguageClient.stop (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1027961)
+	at t.deactivate (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:907191)
+	at E._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:12948)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10540
+	at Array.map (<anonymous>)
+	at E._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10527)
+	at E.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:110:10909)
+	at d.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:1712)
+	at p (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:19913)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:124:17803
+	at E.invoke (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2680)
+	at n.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2213)
+	at p.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:17121)
+	at s._receiveMessage (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:23617)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:20056
+	at E.invoke (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:145)
+	at h.deliver (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2680)
+	at n.fire (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2213)
+	at d.acceptChunk (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:13945)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:13075
+	at Socket.s (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:72:28810)
+	at Socket.emit (node:events:526:28)
+	at addChunk (node:internal/streams/readable:315:12)
+	at readableAddChunk (node:internal/streams/readable:289:9)
+	at Readable.push (node:internal/streams/readable:228:10)
+	at Pipe.onStreamRead (node:internal/stream_base_commons:190:23)
+2023-05-18 14:47:46.129 [info] Extension host with pid 23809 exiting with code 0
+2023-05-18 14:48:07.354 [info] Extension host with pid 24601 started
+2023-05-18 14:48:07.354 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/72acf8b548c0620c607f61dac0269d53.
+2023-05-18 14:48:09.627 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-18 14:48:09.628 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-18 14:48:09.629 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-18 14:48:12.053 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-18 14:48:12.054 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-18 14:48:12.775 [info] Eager extensions activated
+2023-05-18 14:48:13.144 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:48:13.145 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:48:13.146 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-18 14:48:43.663 [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java', root cause: Pivotal.vscode-spring-boot
+2023-05-18 14:48:43.672 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:48:43.673 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:48:43.676 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:48:43.677 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-18 14:48:46.884 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-18 14:48:47.803 [info] ExtensionService#_doActivateExtension Pivotal.vscode-spring-boot, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:48:47.804 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+2023-05-18 14:48:56.126 [error] Error: ENOENT: no such file or directory, open '/home/lxrdszn/.config/VSCodium/User/workspaceStorage/72acf8b548c0620c607f61dac0269d53/redhat.java/jdt_ws/.metadata/.log'
+2023-05-18 14:48:57.359 [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+2023-05-18 14:48:58.631 [error] Error: command 'sts.vscode-spring-boot.enableClasspathListening' not found
+    at b._tryExecuteCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15967)
+    at b.executeCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-18 14:49:48.179 [error] [redhat.java] provider FAILED
+2023-05-18 14:49:48.179 [error] Error: The request (id: 2, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:50:49.792 [error] Error: command 'sts.vscode-spring-boot.enableClasspathListening' not found
+    at b._tryExecuteCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15967)
+    at b.executeCommand (vscode-file://vscode-app/usr/share/codium/resources/app/out/vs/workbench/workbench.desktop.main.js:1576:15849)
+    at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-18 14:50:53.488 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2023-05-18 14:52:08.873 [error] [redhat.java] provider FAILED
+2023-05-18 14:52:08.875 [error] Error: The request (id: 25, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:58:35.838 [error] [redhat.java] provider FAILED
+2023-05-18 14:58:35.840 [error] Error: The request (id: 38, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:58:43.735 [error] [redhat.java] provider FAILED
+2023-05-18 14:58:43.735 [error] Error: The request (id: 44, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:58:49.086 [error] [redhat.java] provider FAILED
+2023-05-18 14:58:49.086 [error] Error: The request (id: 49, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:58:56.817 [error] [redhat.java] provider FAILED
+2023-05-18 14:58:56.817 [error] Error: The request (id: 50, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:58:58.001 [error] [redhat.java] provider FAILED
+2023-05-18 14:58:58.001 [error] Error: The request (id: 51, method: 'textDocument/hover') has been cancelled
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071113
+	at ie (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1071407)
+	at /home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066191
+	at Immediate.<anonymous> (/home/lxrdszn/.vscode-oss/extensions/redhat.java-1.18.0-universal/dist/extension.js:2:1066211)
+	at process.processImmediate (node:internal/timers:466:21)
+2023-05-18 14:59:41.942 [info] Extension host terminating: received terminate message from renderer
+2023-05-18 14:59:42.146 [info] Extension host with pid 24601 exiting with code 0

@@ -1,0 +1,33 @@
+2023-05-15 19:43:12.995 [info] Nivel de registro: Info
+2023-05-15 19:43:12.995 [info] La validación encontró GIT en: “git“
+2023-05-15 19:43:12.995 [info] Usando GIT “2.39.2” desde “git”
+2023-05-15 19:43:12.995 [info] > git rev-parse --show-toplevel [71ms]
+2023-05-15 19:43:12.995 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:43:12.995 [info] > git rev-parse --show-toplevel [337ms]
+2023-05-15 19:43:12.995 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:43:13.049 [info] > git rev-parse --show-toplevel [69ms]
+2023-05-15 19:43:13.049 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:43:13.512 [info] > git rev-parse --show-toplevel [199ms]
+2023-05-15 19:43:13.512 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:43:13.658 [info] > git rev-parse --show-toplevel [15ms]
+2023-05-15 19:43:13.658 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:43:21.263 [info] > git rev-parse --show-toplevel [33ms]
+2023-05-15 19:43:21.263 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1

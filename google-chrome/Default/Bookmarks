@@ -1,0 +1,96 @@
+{
+   "checksum": "07a74c50c1b3dbf4f7795f291ea5fe51",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13328413017902860",
+            "date_last_used": "13328947449885742",
+            "guid": "c8f3e3ca-e367-4e5c-a13e-83f2bc3bff26",
+            "id": "10",
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13328413017909145",
+            "date_last_used": "13328432857664248",
+            "guid": "82310f4b-8949-4d0f-b747-4bf8a44316f5",
+            "id": "11",
+            "name": "YouTube",
+            "type": "url",
+            "url": "https://youtube.com/"
+         }, {
+            "date_added": "13328413017911561",
+            "date_last_used": "0",
+            "guid": "c3eb9a0c-ec3b-4c33-a6ba-381ca32e94a0",
+            "id": "12",
+            "name": "Maps",
+            "type": "url",
+            "url": "https://maps.google.com/"
+         }, {
+            "date_added": "13284427867616292",
+            "date_last_used": "13328991077089379",
+            "guid": "96a34d28-5470-44dd-91fa-edda90056c43",
+            "id": "13",
+            "name": "GITHUB",
+            "type": "url",
+            "url": "https://github.com/LXRDSZN"
+         }, {
+            "date_added": "13322067846833745",
+            "date_last_used": "13328988195863836",
+            "guid": "13089e45-e60c-4e02-a3f0-9a2484ab2749",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "CHAT GPT",
+            "type": "url",
+            "url": "https://chat.openai.com/chat"
+         } ],
+         "date_added": "13328413009372776",
+         "date_last_used": "0",
+         "date_modified": "13328413017911561",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barra de favoritos",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13328413009372779",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Otros favoritos",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [ {
+            "date_added": "13214103883712807",
+            "date_last_used": "0",
+            "guid": "3cb5d132-97e5-45d8-9c7d-0add81ff4a13",
+            "id": "8",
+            "name": "Nueva pestaña",
+            "type": "url",
+            "url": "chrome-native://newtab/"
+         }, {
+            "date_added": "13214104018382293",
+            "date_last_used": "0",
+            "guid": "bc0c58ad-7eac-4efc-802a-6daa151a153d",
+            "id": "9",
+            "name": "buscador de personas por internet - Buscar con Google",
+            "type": "url",
+            "url": "https://www.google.com/search?q=buscador+de+personas+por+internet&client=ms-android-hisense&gbv=1&sei=taiOXeK2GYG_0PEP6MyxwAs"
+         } ],
+         "date_added": "13328413009372781",
+         "date_last_used": "0",
+         "date_modified": "13214104018382293",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoritos del celular",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cu8BCswBCIiBAhLFARI8CAISOAoGCgJibRABEDMaEgkA0dqODvwFACEA0dqODvwFADIYChYIAhF5fbKeDvwFABgAIQAAAAAAAAAAIACSAX0KNAoOY2hyb21lX3N5bmNfYm0SBTUxIWJtGhIJHcayng78BQARHcayng78BQApQGGzng78BQAKRQoWYW5ub3RhdGlvbl9jaHJvbWVfc3luYxIFNTEhYmQaEgkAZpWZDvwFABEAZpWZDvwFACkGwbKeDvwFADCAzNXM6YH/AroBAggBEgAgASoYenJaQTQwbnlSamJWUDZNV1FhZC9Sdz09SAMSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp3L0FsQXlJYWp1K1NoaWJEZmpoTGJjVlliNGs1RThDbFJOa0ZhalcyNGNyZythWkdFb0E2dkl5RlpNaENzWW9VMEhvN2lrTVRDcDk5S25CTVIxSmxKN29uNVZZdz09GAAgACgAMMWf9bfw8P4COABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASrAIICBKnAgocektiZUQ4ajJsb3Vad1NBMFhQS29qZlBYNnVvPRKmAVo6QURxdEFaeEgwcEN3TVFjcHF5WmlUdjVzZE1XWHdmbExpZmNydVBRWituc3psaUJTMXpzMUpWckZZWkk4dE9lMGFMS2FYTHVrbWRnUWsyem42eDk3cjR1TldiNkp0VURyWUZSS0cvL1k4cWcvOGZJZFF6Z3Q3VHdIdnJWUWEvZEhWRUQ0c2pTQ1dDSzl2NHNjMjJiNEYyM25tMDZZZUFKVGFBPT0YACAAKAAwiK2gt53O9QI42M+FqtctQNjPharXLUocRmlsTENJRGk0Z1BIQ3JaYThRbU5wVDBqbGswPVoeIhxHdkZpVHpiRVc2aTZ5WktQQWN0U0dNRk9ZWms9ZQAAAAASwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp6RzNXbnBaNjdiK3pQM3dyNTJ6U2xzSmtVZVlwRDAxSElUTlNsMHVOb0hDOFJYVU45NGprcFJ5RlVDVm9waUxuL2pEQkpOSCtRM1VJdE9HaTVlUTBtN0J5N3Vudz09GAAgACgAMMWf9bfw8P4COABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp4aGFzdXJMRGpPNUxqL2hpQmMwV2JVZXZpUW15MnZXSXBDOVlIanJlZVYvK3d5TWxFMloyT1d6NTRUV1I3ZU5NUlBOY3gzGAAgACgAMMWf9bfw8P4COABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS7QEIDhLoAQoceER5R0dhMUM0YjlndWkxb0M0czMwWVR1VldjPRJmWjpBRHF0QVp3SlN6ZGRwV2JqVnJWUkY3WXczMjIydjVhQmVHNXFXNVY5MlFVaG1FQ1FhL2RCcVJjUldESjFhQ3Y5MjNHTkZlUWdpeXdZeStWM015UEtaWlFqblNMSlhacDcwQT09GAAgAigCMJXrhrjw8P4COLL9osPpMECosPOUgTFKHFdCa2FYSmxQTzZ5STZwWVpOM2w5ZTVvTnE5TT1aICIe/+0wRGo5VDNwSmhKU3o2bmx3eFJNTlU5V0o3Vk09ZWkbIvMS7AEICxLnAQocY1I1YUtDMSs4Tk5ON2o1ZFNrbnZnKy9ZRHZ3PRJmWjpBRHF0QVp3SlN6ZGRwV2JqVnJWUkY3WXczMjIyUmpNNlZnS2EwTExabitublUwWE1tYmVINkh6ZEFEckU1Z1p0ZnM1d0ErREdLaGhwQkZZanM1MEZxdWpnZ3dqQVN6ajNyUT09GAAgAigCMJXrhrjw8P4COKD54MXCL0ClsPOUgTFKHFE3WVlnZDZNalRnUlNWTDRjYVVJUFlPY2xTOD1aHyIdzHV3cUlKRmdPWTE0OVlPM0cyaWJQQXRhbjNxaz1lOPk5MxKsAggJEqcCChxoSTNoQ1BvNlBtSGN6QXROV0cxV2tJb2ttaWM9EqYBWjpBRHF0QVp4SDBwQ3dNUWNwcXlaaVR2NXNkTVdYd2ZsTGlmY3J1UFFaK25zemxpQlMxelgxN1BIZGdyKzBLRHdBMzZvZ2lvODErQkJmSm5DZFJJOUVrT2hNbjVYaU11eHF3dU1KTll3WXJsQ296bFlHWTZHdHhWWjNJRjlpdWIrZlN1Y200Tk1mNjVsZ0pYbWdQTDRtYXdJa0l0WjBxa0M2dUE9PRgAIAAoADDaxJGq8uz3AjjQ642q1y1A0OuNqtctShxnbDJZbGlCdjlTNDlWUWJBWERJWE5oMi9OUHc9Wh4iHFJCRlB0ajhISDRJb0ZDNmZhZHpQZk53bElmZz1lEDD/5BLsAQgKEucBChx0R3FmdGhuYVF6Um9HNVhhYmNMVVU1eUZpb3M9EmZaOkFEcXRBWndKU3pkZHBXYmpWclZSRjdZdzMyMjJ6K1plcXpDMzV2ZmxoVWEzRWwzMVl1Y21vSndhQkFudXBrRzlLaW5sODViMUkxUHBwdU5mZWRlMTBRL2RVNUhSN2dpNkVnPT0YACACKAIwleuGuPDw/gI4oPngxcIvQKOw85SBMUocUllNNEUrRk9nV1RIY01yOWxUK0k3cnpqcnVnPVofIh2YLzZiRFpjRkJZelk2Z0p3dUNUREVnNlFBRzVFPWWLoIzREuwBCAwS5wEKHHJhZFpDcFlXQU9zOEl5VW51Q25GblJ4UjNYND0SZlo6QURxdEFad0pTemRkcFdialZyVlJGN1l3MzIyMm5oV0RPZ0NzTWg5eVpobGxSbVlLclBERGlBUGxVb2pPU1pleE5BU1laMVpTV1MwUnYwdk1BR0I2VmNCYXd3RkZOeEhGZEE9PRgAIAIoAjCV64a48PD+Ajig+eDFwi9AprDzlIExShx0Q3lhbHorZWJLaTJ3K1JNSVR0a1FVWkNKMUk9Wh8iHeZQYUtOR0ZWc05JNTBZYzhPcFZyYXpBSHlBU1U9ZT1shRES7QEIDRLoAQocdUh1Ti9waTh0YmNlKy9oK1RWR05vMWpFNmZnPRJmWjpBRHF0QVp3SlN6ZGRwV2JqVnJWUkY3WXczMjIyVG83YXlPc3ljeUliYUtla1hmVHg5VytqUlVXL2JUbnplWWtaTDEzTVV5U1VuRmdraitjWUx2cThXMldQTndMSkpZenNYQT09GAAgAygDMN7WtY+/9v4COIPw/L7PMEDCsvLwgTFKHDJOeDhHcHRBd3hYd0VMbkx1TkxQQUlIU0NhOD1aICIe/9oydW9JWVBmcUpYay9oZ08wRklYYmlaRWpReFU9ZSjQ4akwATgA",
+   "version": 1
+}

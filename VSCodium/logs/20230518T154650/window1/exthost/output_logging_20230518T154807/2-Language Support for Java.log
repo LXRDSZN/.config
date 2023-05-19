@@ -1,0 +1,300 @@
+WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign
+[Error - 15:49:55] 18 may. 2023 14:49:55 Failed to load extension bundles 
+Load bundle list
+org.eclipse.core.runtime.CoreException: Load bundle list
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:169)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Contains: Cannot extract bundle symbolicName or version /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar
+java.nio.file.NoSuchFileException: /home/lxrdszn/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.22.0-universal/server/com.microsoft.jdtls.ext.core-0.22.0.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/sun.nio.fs.LinuxFileSystemProvider.readAttributes(LinuxFileSystemProvider.java:99)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1264)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:347)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:318)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:257)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.getBundleInfo(BundleUtils.java:300)
+	at org.eclipse.jdt.ls.core.internal.handlers.BundleUtils.loadBundles(BundleUtils.java:116)
+	at org.eclipse.jdt.ls.core.internal.handlers.InitHandler.handleInitializationOptions(InitHandler.java:103)
+	at org.eclipse.jdt.ls.core.internal.handlers.BaseInitHandler.initialize(BaseInitHandler.java:64)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.initialize(JDTLanguageServer.java:267)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$1(ParentProcessWatcher.java:144)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+[Error - 15:51:28] 18 may. 2023 14:51:28 Error occured while building workspace. Details: 
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 42
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 46
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 50
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 54
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 58
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Bienvenida.java; line: 62
+ message: The import com.google cannot be resolved; code: 268435846; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 7
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 72
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 87
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 100
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 130
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 160
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 190
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 192
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 195
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 198
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 208
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 211
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 221
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 253
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 256
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 259
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Login.java; line: 262
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 100
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 106
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 112
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 118
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 124
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 129
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 134
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 137
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 139
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 161
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 174
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 187
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 199
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 211
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 219
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 226
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 238
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 245
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 251
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 254
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/Menu.java; line: 97
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 163
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 171
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 183
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 190
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 196
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 199
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 74
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 77
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 83
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 89
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 95
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 101
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 106
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 111
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 114
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 116
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 138
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuAdmin.java; line: 151
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 74
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 77
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 83
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 89
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 95
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 101
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 106
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 111
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 114
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 116
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 138
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 151
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 163
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 171
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 183
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 190
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 196
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/MenuUsr.java; line: 199
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_horaFraccion.java; line: 84
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_horaFraccion.java; line: 64
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_horaFraccion.java; line: 67
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_horaFraccion.java; line: 72
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 107
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 110
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 113
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 138
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 168
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 193
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 218
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 243
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 268
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 293
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 318
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 343
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 368
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 393
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 418
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 443
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 468
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 493
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 518
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 521
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 523
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 527
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 531
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 543
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_lugar.java; line: 544
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_pension.java; line: 70
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_pension.java; line: 78
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/csl_pension.java; line: 93
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 139
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 149
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 159
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 164
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 169
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 170
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 172
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 198
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 199
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 200
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 205
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 210
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 214
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 92
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 102
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 103
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 107
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 110
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 117
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 122
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 129
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_SalidaAuto.java; line: 134
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 158
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 166
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 169
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 176
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 179
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 183
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 186
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 189
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 192
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 195
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 198
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 201
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 204
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 207
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 210
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 217
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 224
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 225
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 232
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 233
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 234
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 237
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 240
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 243
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 246
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 254
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 262
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 270
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 278
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 281
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 311
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 336
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 361
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 386
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 411
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 436
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 461
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 486
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 489
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 491
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 499
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_agregarAuto.java; line: 500
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 76
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 80
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 83
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 86
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 89
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 92
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 100
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 108
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 116
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 124
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 131
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 132
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 133
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 136
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 166
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 191
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 216
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 241
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 266
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 291
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 316
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 341
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 344
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 346
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 349
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_horaFraccion.java; line: 73
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/frm_salidaVehiculo.java; line: 34
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 59
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 74
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 87
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 117
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 146
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 175
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 177
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 180
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 183
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 186
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 196
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 206
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 234
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 237
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 240
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_admin.java; line: 243
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 59
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 74
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 104
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 117
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 148
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 178
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 180
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 208
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 211
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 214
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 217
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 227
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 237
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 240
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 243
+ message: org.netbeans cannot be resolved to a type; code: 16777218; resource: /home/lxrdszn/Desktop/EstacionamientoNivel_v1/src/estacionamientonivel/login_usr.java; line: 246

@@ -1,0 +1,186 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Juego de preguntas</title>
+  <script src="sweetalert2.all.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Encode+Sans&family=Inter&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="https://kit.fontawesome.com/94f47f52fa.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+  <header>
+    <nav>
+        <a href="../index.html">Inicio</a>
+  
+        <a href="#">Portafolio</a>
+        <a href="./game/index.html">Juego</a>
+        <a href="./contactanos.html">Contacto</a>
+    <section class="textos-header">
+        <h1>Bienvenido al juego de preguntas</h1>
+       
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+            style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                style="stroke: none; fill: #fff;"></path>
+        </svg></div>
+</header>
+  <style>
+    * {
+      transition: all 0.3s;
+    }
+
+    body {
+      background: rgb(255, 255, 255);
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: calibri;
+      font-size: 120%;
+    }
+
+    .contenedor {
+      width: 98vw;
+      height: 97vh;
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .encabezado {
+      position: relative;
+      background: white;
+      min-width: 300px;
+      width: 70%;
+      max-width: 600px;
+      padding: 10px;
+    }
+
+    .categoria {
+      opacity: 0.3;
+      text-align: left;
+    }
+
+    .pregunta {
+      padding: 10px;
+    }
+
+    .imagen {
+      object-fit: cover;
+      height: 0px;
+      width: 0px;
+    }
+
+    .btn {
+      background: rgb(141, 140, 140);
+      width: 60%;
+      max-width: 550px;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+    }
+    
+    .numero{
+      position: absolute;
+      opacity:0.3;
+      top: 10px;
+      right: 10px;
+    }
+    
+    .puntaje{
+      padding:10px;
+      color:white;
+    }
+  </style>
+
+  <div class="contenedor">
+    <div class="puntaje" id="puntaje"></div>
+    <div class="encabezado">
+      <div class="categoria" id="categoria">
+      </div>
+      <div class="numero" id="numero"></div>
+      <div class="pregunta" id="pregunta">
+      </div>
+      <img src="#" class="imagen" id="imagen">
+    </div>
+    <div class="btn" id="btn1" onclick="oprimir_btn(0)"></div>
+    <div class="btn" id="btn2" onclick="oprimir_btn(1)"></div>
+    <div class="btn" id="btn3" onclick="oprimir_btn(2)"></div>
+    <div class="btn" id="btn4" onclick="oprimir_btn(3)"></div>
+    
+    <script src="index.js"></script>
+  </div>
+
+   <!--Pie de página-->
+   <footer class="footer">
+    <div class="container">
+     <div class="row">
+       <div class="footer-col">
+         <h4>EMPRESA/COLEGIO</h4>
+         <ul>
+           <li><a href="#">TECNM / UPN</a></li>
+           <li><a href="#">Ètica profesional</a></li>
+           <li><a href="#">POLITICAS DE PRIVACIDAD</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>AYUDA</h4>
+         <ul>
+           <li><a href="#">Productos</a></li>
+           <li><a href="#">Compras</a></li>
+           <li><a href="#">¿Tienes dudas?</a></li>
+           <li><a href="#">Mas Opciones</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>CONTACTO CON EL DISEÑADOR WEB</h4>
+         <ul>
+           <li><a href="mailto:ivangaliciagarces@gmail.com">Correo: gabyvillalva5@gmail.com</a></li>
+           <li><a href="#">Telefono: 735298046</a></li>
+         </ul>
+       </div>
+       <div class="footer-col">
+         <h4>REDES SOCIALES DEL DISEÑADOR</h4>
+         <div class="social-links">
+           <a href="https://www.facebook.com/Ivangaliciagarces" target="_blank"><i class="fab fa-facebook-f"></i></a>
+           <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+           <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+           <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+
+           <div id="clockdate">
+ <div class="clockdate-wrapper">
+   <div id="clock"></div>
+   <div id="date"></div>
+ </div>
+</div>
+
+         </div>
+       </div>
+     </div>
+    </div>
+ </footer>
+
+
+ <!--Fin del pie de página-->
+ <div class="container" style="padding-bottom: 50px;">
+    <div class="row">
+      <div class="col-12">
+        <center><p style="font-family: Inter; font-weight: lighter;" class="text-muted"><br><small style="font-size: 16px;">Copyright © 2023 <b>Ètica profesional</b>. Proudly made by  <b>Iván Galicia Garcés and Gabriela Ramos Villalva</b>.</small></p></center>
+      </div>
+    </div>
+  </div>
+  <br>
+
+</body></html>

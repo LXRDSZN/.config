@@ -1,0 +1,24 @@
+2023/05/19-10:13:25.195 1ba1 Reusing MANIFEST /home/lxrdszn/.config/google-chrome/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/MANIFEST-000001
+2023/05/19-10:13:25.195 1ba1 Recovering log #356
+2023/05/19-10:13:25.204 1ba1 Reusing old log /home/lxrdszn/.config/google-chrome/Default/Local Extension Settings/nkbihfbeogaeaoehlefnkodbefgpgknn/000356.log 
+2023/05/19-10:14:58.428 1ba2 Level-0 table #360: started
+2023/05/19-10:14:58.602 1ba2 Level-0 table #360: 2364700 bytes OK
+2023/05/19-10:14:58.607 1ba2 Delete type=0 #356
+2023/05/19-10:18:09.450 1ba2 Level-0 table #362: started
+2023/05/19-10:18:09.506 1ba2 Level-0 table #362: 2365104 bytes OK
+2023/05/19-10:18:09.511 1ba2 Delete type=0 #359
+2023/05/19-10:20:43.108 1ba2 Level-0 table #364: started
+2023/05/19-10:20:43.437 1ba2 Level-0 table #364: 2366030 bytes OK
+2023/05/19-10:20:43.462 1ba2 Delete type=0 #361
+2023/05/19-10:20:43.470 1ba2 Compacting 4@0 + 1@1 files
+2023/05/19-10:20:43.823 1ba2 Generated table #365@0: 1 keys, 591612 bytes
+2023/05/19-10:20:43.823 1ba2 Compacted 4@0 + 1@1 files => 591612 bytes
+2023/05/19-10:20:43.830 1ba2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/05/19-10:20:43.830 1ba2 Delete type=2 #355
+2023/05/19-10:20:43.831 1ba2 Delete type=2 #357
+2023/05/19-10:20:43.831 1ba2 Delete type=2 #360
+2023/05/19-10:20:43.831 1ba2 Delete type=2 #362
+2023/05/19-10:20:43.831 1ba2 Delete type=2 #364
+2023/05/19-10:21:05.954 1ba2 Level-0 table #367: started
+2023/05/19-10:21:06.142 1ba2 Level-0 table #367: 2366453 bytes OK
+2023/05/19-10:21:06.148 1ba2 Delete type=0 #363

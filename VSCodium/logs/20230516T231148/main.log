@@ -1,0 +1,8 @@
+2023-05-16 22:11:48.546 [info] update#setState idle
+2023-05-16 22:11:57.605 [info] Starting extension host with pid 8290 (fork() took 21 ms).
+2023-05-16 22:12:04.283 [info] Extension host with pid 8290 exited with code: 0, signal: null.
+2023-05-16 22:12:08.717 [info] Starting extension host with pid 8431 (fork() took 41 ms).
+2023-05-16 22:12:18.557 [info] update#setState checking for updates
+2023-05-16 22:12:18.824 [info] update#setState available for download
+2023-05-16 22:48:15.297 [info] Waiting for extension host with pid 8431 to exit.
+2023-05-16 22:48:15.713 [info] Extension host with pid 8431 exited with code: 0, signal: null.

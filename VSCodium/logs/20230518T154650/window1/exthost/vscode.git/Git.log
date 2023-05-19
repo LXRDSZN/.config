@@ -1,0 +1,54 @@
+2023-05-18 14:47:27.842 [info] Nivel de registro: Info
+2023-05-18 14:47:27.842 [info] La validación encontró GIT en: “git“
+2023-05-18 14:47:27.842 [info] Usando GIT “2.39.2” desde “git”
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [723ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [60ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [740ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [71ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [27ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:47:27.842 [info] > git rev-parse --show-toplevel [49ms]
+2023-05-18 14:47:27.842 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2023-05-18 14:48:13.014 [info] Nivel de registro: Info
+2023-05-18 14:48:13.014 [info] La validación encontró GIT en: “git“
+2023-05-18 14:48:13.014 [info] Usando GIT “2.39.2” desde “git”
+2023-05-18 14:48:13.014 [info] > git rev-parse --show-toplevel [25ms]
+2023-05-18 14:48:13.014 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-18 14:48:13.044 [info] > git rev-parse --show-toplevel [32ms]
+2023-05-18 14:48:13.044 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-18 14:48:13.245 [info] > git rev-parse --show-toplevel [123ms]
+2023-05-18 14:48:13.245 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-18 14:48:15.525 [info] > git rev-parse --show-toplevel [39ms]
+2023-05-18 14:48:15.527 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-18 14:48:43.326 [info] > git rev-parse --show-toplevel [14ms]
+2023-05-18 14:48:43.327 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1
+2023-05-18 14:58:39.612 [info] > git rev-parse --show-toplevel [189ms]
+2023-05-18 14:58:39.613 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EstacionamientoNivel_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EstacionamientoNivel_v1

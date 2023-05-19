@@ -1,0 +1,13 @@
+l10n: Configured to file:///home/lxrdszn/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-es-1.77.0-universal/translations/extensions/vscode.html-language-features.i18n.json
+[Error - 11:51:07] Request textDocument/documentLink failed.
+Error: Starting server failed
+	at x.$start (/usr/share/codium/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:751955)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async x.sendRequest (/usr/share/codium/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:736114)
+	at async M.provideLinks (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:67507)
+[Error - 11:51:07] Request textDocument/foldingRange failed.
+Error: Starting server failed
+	at x.$start (/usr/share/codium/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:751955)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+	at async x.sendRequest (/usr/share/codium/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain.js:2:736114)
+	at async ge.provideFoldingRanges (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:69036)

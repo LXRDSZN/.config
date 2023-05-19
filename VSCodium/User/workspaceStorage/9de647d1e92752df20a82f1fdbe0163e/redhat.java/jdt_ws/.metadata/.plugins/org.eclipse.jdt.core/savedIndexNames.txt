@@ -1,0 +1,4 @@
+INDEX VERSION 1.133+/home/lxrdszn/.config/VSCodium/User/workspaceStorage/9de647d1e92752df20a82f1fdbe0163e/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+1258348835.index
+1865797976.index
+3842426239.index

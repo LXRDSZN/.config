@@ -1,0 +1,89 @@
+2023-05-15 16:52:16.632 [info] Nivel de registro: Info
+2023-05-15 16:52:16.632 [info] La validación encontró GIT en: “git“
+2023-05-15 16:52:16.632 [info] Usando GIT “2.39.2” desde “git”
+2023-05-15 16:52:16.632 [info] > git rev-parse --show-toplevel [190ms]
+2023-05-15 16:52:16.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 16:52:16.632 [info] > git rev-parse --show-toplevel [34ms]
+2023-05-15 16:52:16.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 16:52:16.632 [info] > git rev-parse --show-toplevel [37ms]
+2023-05-15 16:52:16.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 16:52:16.632 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-15 16:52:16.632 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 16:52:23.594 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-15 16:52:23.594 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 16:52:40.306 [info] > git rev-parse --show-toplevel [22ms]
+2023-05-15 16:52:40.306 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:04:39.062 [info] > git rev-parse --show-toplevel [42ms]
+2023-05-15 17:04:39.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:12:19.021 [info] > git rev-parse --show-toplevel [143ms]
+2023-05-15 17:12:19.022 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:12:22.781 [info] > git rev-parse --show-toplevel [59ms]
+2023-05-15 17:12:22.782 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:12:33.637 [info] > git rev-parse --show-toplevel [86ms]
+2023-05-15 17:12:33.637 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:13:23.672 [info] > git rev-parse --show-toplevel [53ms]
+2023-05-15 17:13:23.673 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:13:25.372 [info] > git rev-parse --show-toplevel [84ms]
+2023-05-15 17:13:25.372 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:13:43.913 [info] > git rev-parse --show-toplevel [144ms]
+2023-05-15 17:13:43.913 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:13:50.057 [info] > git rev-parse --show-toplevel [77ms]
+2023-05-15 17:13:50.057 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-05-15 17:17:44.642 [info] Nivel de registro: Info
+2023-05-15 17:17:44.643 [info] La validación encontró GIT en: “git“
+2023-05-15 17:17:44.643 [info] Usando GIT “2.39.2” desde “git”
+2023-05-15 17:17:44.643 [info] > git rev-parse --show-toplevel [51ms]
+2023-05-15 17:17:44.643 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 17:17:44.643 [info] > git rev-parse --show-toplevel [30ms]
+2023-05-15 17:17:44.643 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 17:17:44.643 [info] > git rev-parse --show-toplevel [32ms]
+2023-05-15 17:17:44.643 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 17:17:44.643 [info] > git rev-parse --show-toplevel [38ms]
+2023-05-15 17:17:44.643 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 17:17:44.643 [info] > git rev-parse --show-toplevel [44ms]
+2023-05-15 17:17:44.644 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 17:17:54.738 [info] > git rev-parse --show-toplevel [43ms]
+2023-05-15 17:17:54.738 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:36:15.703 [info] > git rev-parse --show-toplevel [53ms]
+2023-05-15 19:36:15.727 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:36:44.937 [info] > git rev-parse --show-toplevel [5ms]
+2023-05-15 19:36:44.937 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:36:49.570 [info] > git rev-parse --show-toplevel [6ms]
+2023-05-15 19:36:49.570 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:38:24.163 [info] > git rev-parse --show-toplevel [13ms]
+2023-05-15 19:38:24.163 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1
+2023-05-15 19:38:28.852 [info] > git rev-parse --show-toplevel [4ms]
+2023-05-15 19:38:28.853 [info] fatal: detected dubious ownership in repository at '/home/lxrdszn/Desktop/EXpoweb_v1'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/lxrdszn/Desktop/EXpoweb_v1

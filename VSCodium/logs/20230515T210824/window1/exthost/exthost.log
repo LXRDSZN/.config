@@ -1,0 +1,32 @@
+2023-05-15 20:08:50.007 [info] Extension host with pid 1913 started
+2023-05-15 20:08:50.007 [info] Skipping acquiring lock for /home/lxrdszn/.config/VSCodium/User/workspaceStorage/025eb0edb874575972d426ab274fb62f.
+2023-05-15 20:08:51.095 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-05-15 20:08:51.097 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-05-15 20:08:51.098 [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+2023-05-15 20:08:53.809 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-05-15 20:08:53.810 [info] ExtensionService#_doActivateExtension kisstkondoros.vscode-gutter-preview, startup: true, activationEvent: '*'
+2023-05-15 20:08:53.811 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: true, activationEvent: '*'
+2023-05-15 20:08:58.717 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-05-15 20:08:58.720 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-05-15 20:09:00.788 [info] Eager extensions activated
+2023-05-15 20:09:01.101 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 20:09:01.102 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 20:09:01.103 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-05-15 21:08:33.264 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-05-15 21:08:34.535 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lxrdszn/Desktop/EXpoweb_v1/subtemas/img/img3.jpg'
+	at ti._handleError (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:31045)
+	at Object.stat (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:29383)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-15 21:08:39.906 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/lxrdszn/Desktop/EXpoweb_v1/subtemas/img/img3.jpg'
+	at ti._handleError (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:31045)
+	at Object.stat (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:100:29383)
+	at process.processTicksAndRejections (node:internal/process/task_queues:96:5)
+2023-05-15 22:36:01.097 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2023-05-16 00:13:27.258 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+2023-05-16 00:17:03.569 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-05-16 00:17:03.569 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2023-05-16 00:17:03.570 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2023-05-16 00:17:03.570 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2023-05-16 00:17:05.389 [warning] Using default string since no string found in i18n bundle that has the key: Error parsing the when-clause:
+2023-05-16 10:16:37.196 [info] Extension host terminating: received terminate message from renderer
+2023-05-16 10:16:37.564 [info] Extension host with pid 1913 exiting with code 0

@@ -1,0 +1,26 @@
+[directory]
+caja-icon-view-keep-aligned=true
+caja-icon-view-auto-layout=true
+caja-icon-view-tighter-layout=false
+caja-window-scroll-position=x-caja-desktop:///computer
+caja-icon-view-layout-timestamp=1684120171
+
+[computer]
+caja-icon-position=64,22
+icon-scale=1
+caja-icon-position-timestamp=1684120171
+
+[trash]
+caja-icon-position=64,322
+icon-scale=1
+caja-icon-position-timestamp=1684120171
+
+[home]
+caja-icon-position=64,122
+icon-scale=1
+caja-icon-position-timestamp=1684120171
+
+[Volumen de 16 GB.volume]
+caja-icon-position=64,422
+icon-scale=1
+caja-icon-position-timestamp=1683945672
